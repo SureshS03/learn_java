@@ -31,7 +31,7 @@ public class ClassOops { //only nested class can be static
 
         @SuppressWarnings("unused")
         int num;
-        public BroClass(int num) {
+        public BroClass(int num) { // simple constructor
             this.num = num;
         }
 
