@@ -1,5 +1,5 @@
 public class DataType {
-    @SuppressWarnings("unused") 
+    @SuppressWarnings("unused") //added anotation for unused warring
         public static void main(String[] args) {
 
             int x; //4 bytes -2 billon to 2 billon
