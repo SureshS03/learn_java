@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 //static func are for the class, non static func are for the object
 public class ConditionStatment {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         int age;
         Scanner s = new Scanner(System.in);
