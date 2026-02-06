@@ -1,5 +1,7 @@
 public class Array {
     public static void main(String[] args) {
+
+        // Array need on spot memory space length, like frds[3] or define value at on spot, but ArrayList can be flexible
         
         String[] frds = {"suresh", "arya", "bro", "devg", "botigl"};
 
