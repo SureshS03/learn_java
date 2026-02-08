@@ -40,7 +40,7 @@ public class ArrayListClass {
         comptitive.add("valo");
         comptitive.add("cs2");
         
-        ArrayList<String> moviegames = new  ArrayList(); //still works, but not safety, datatype maybe vary, not best pratice
+        ArrayList<String> moviegames = new ArrayList(); //still works, but not safety, datatype maybe vary, not best pratice
         moviegames.add("last of us");
         moviegames.add("spider-man");
 
