@@ -11,6 +11,7 @@ public class ArrayListClass {
                 - if u want to use primitive type, use its correct wrapper class eg:- int -> Integer etc..
         */
 
+        @SuppressWarnings("Convert2Diamond")
         ArrayList<String> foods = new ArrayList<String>(); //initial capacity is ten
 
         foods.add("dosa");
@@ -54,7 +55,6 @@ public class ArrayListClass {
         for (ArrayList<String> g : games) {
             for (String s : g) {
                 System.out.println("game is "+ s);
-                
             }
         }
 
