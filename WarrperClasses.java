@@ -68,7 +68,9 @@ public class WarrperClasses {
         s.codePoints();
 
         //example
-        int ii = 76; 
+        @SuppressWarnings("unused")
+        int ii = 76;
+        @SuppressWarnings("unused")
         boolean bb = true;
         // these normal, primitive data type dont have any methods to use
 
