@@ -22,7 +22,6 @@ public class Inheritance {
 
 //if the super class have constructor means, child also should have that with the super keyword with the variable of super class
 //and if the child class have the same method has super class means, it will do in child class
- 
 // this is paranet class AKA Super class
 class Vechicle {
 
