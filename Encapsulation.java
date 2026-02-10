@@ -1,7 +1,7 @@
 public class Encapsulation {
-   public static void main(String[] args) {
+    public static void main(String[] args) {
 
-       Car c = new Car("BMW", "720d", 2020);
+        Car c = new Car("BMW", "720d", 2020);
 
         // access the private varibales via getters
         System.out.println(c.getCompany());
@@ -12,7 +12,7 @@ public class Encapsulation {
         c.setYear(2022);
 
         System.out.println("year after changed " + c.getYear());
-   } 
+    }
 }
 
 class Car {
@@ -44,7 +44,7 @@ class Car {
     public void setCompany(String company) {
         this.company = company;
     }
-    
+
     public void setModel(String model) {
         this.model = model;
     }
