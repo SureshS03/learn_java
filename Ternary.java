@@ -12,6 +12,7 @@ public class Ternary {
         int x = sc.nextInt();
         System.err.println(evenOrOdd(x));
         
+        sc.close();
 
     }
 
