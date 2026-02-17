@@ -61,7 +61,7 @@ class Game implements Runnable {
 
 }
 
-class MyThread extends Thread { // this is also another way of create threads but its inheritance so 
+class MyThread extends Thread { // this is also another way of create threads but its inheritance so u cant have another parnets class, in other method u can achivce inheritance
 
     @Override
     public void run() {
